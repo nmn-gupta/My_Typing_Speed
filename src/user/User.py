@@ -9,3 +9,9 @@ class User:
 
     def set_userName(self, userName):
         self.userName = userName
+
+    def get_userEmail(self):
+        return self.userEmail
+
+    def set_userName(self, userEmail):
+        self.userEmail = userEmail
