@@ -24,4 +24,6 @@ class User:
 
 
 obj = User('naman', 'naman.gupta', 'dhsghd')
-print(obj)
+print(obj.userName)
+print(obj.userEmail)
+print(obj.userPassword)
