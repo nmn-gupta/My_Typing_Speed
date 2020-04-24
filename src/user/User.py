@@ -21,3 +21,7 @@ class User:
 
     def set_userPassword(self, userPassword):
         self.userPassword = userPassword
+
+
+obj = User('naman', 'naman.gupta', 'dhsghd')
+print(obj)
