@@ -3,6 +3,9 @@ class Validation:
         self.userEmail = userEmail
         self.userPassword = userPassword
 
+    def check_password(userPassword):
+        input_password = input("Enter the password: ")
+
 
 obj_validation = Validation()
 
