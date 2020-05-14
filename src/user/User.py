@@ -1,14 +1,7 @@
 class User:
-    def __init__(self, userName, userEmail, userPassword):
-        self.userName = userName
+    def __init__(self, userEmail, userPassword):
         self.userEmail = userEmail
         self.userPassword = userPassword
-
-    def get_userName(self):
-        return self.userName
-
-    def set_userName(self, userName):
-        self.userName = userName
 
     def get_userEmail(self):
         return self.userEmail
@@ -21,9 +14,3 @@ class User:
 
     def set_userPassword(self, userPassword):
         self.userPassword = userPassword
-
-
-obj = User('naman', 'naman.gupta', 'dhsghd')
-print(obj.userName)
-print(obj.userEmail)
-print(obj.userPassword)
